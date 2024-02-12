@@ -220,3 +220,24 @@ footer .logoa{
 .linkedin{
   width: 10em;
 }
+
+
+@media (min-width: 500px){
+  .card {
+    border-radius: 0.1em;
+    box-shadow: 7px 7px 13px 0px rgba(225, 201, 201, 0.22);
+    padding: 0.2em;
+    margin: 0.5em;
+    width: 8em;
+    transition: all 0.4s ease-out;
+  }
+
+ .carrosel img{
+  width: 100%;
+ }
+}
+
+
+
+
+
