@@ -5,11 +5,11 @@
   src: url(FONTES\ TITULO/Carton_Six.ttf);
 }
 
-
-.logo {
-  width: 5em;
-  margin-bottom: -10;
+.engrenagem {
+  width: 80px;
 }
+
+
 
 body {
 
@@ -39,10 +39,6 @@ a {
   text-decoration: none;
 }
 
-
-.engrenagem {
-  width: 80px;
-}
 
 
 /* CAPA INICIO */
@@ -191,28 +187,36 @@ img {
 }
 /* FIM FOTOS E ESCRITAS */
 
-footer {
-  display: flex;
-  width: 100vw;
-  height: 26vh;
+.container {
+  max-width: 70em;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2em;
+}
+
+footer{
+  margin-top: 3em;
   background-color: #ef406c;
 }
 
-footer .logof{
-margin-top: 15px;
-margin-bottom: 15px;
+footer p{
+  font-size: 2em;
+  font-family: divertida;
+}
+
+
+#pe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .logoa{
     width: 9em;
-    margin-right: 77%;
-  
+
 }
 
 .linkedin{
-margin-top: 15px;
-margin-bottom: 15px;
-justify-content: right;
-}
-
-.linkedin img{
-  width:9em;
-
+  width: 10em;
 }
